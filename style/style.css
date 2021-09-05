@@ -8,16 +8,19 @@
     font-family: "Work Sans", sans-serif;
     box-sizing: border-box;
 }
+
 .container {
     max-width: 1130px;
     padding: 0 15px;
     width: 100%;
     margin: 0 auto;
 }
+
 button {
     border: none;
     background: none;
 }
+
 .btn-hollow {
     border: 1px solid rgba(29, 37, 60, 0.2);
     border-radius: 4px;
@@ -28,6 +31,7 @@ button {
     color: #1D253C;
     padding: 13px 31px 14px 31px;
 }
+
 .btn-orange {
     position: relative;
     background: #F46752;
@@ -40,11 +44,13 @@ button {
     color: #FFFFFF;
     padding: 21px 73px 20px 29px;
 }
+
 .btn-orange img {
     position: absolute;
     top: 24px;
     right: 35px;
 }
+
 .section-suptitle {
     font-weight: 600;
     font-size: 14px;
@@ -52,24 +58,28 @@ button {
     text-transform: uppercase;
     color: #F46752;
 }
+
 .section-title {
     font-weight: 600;
     font-size: 44px;
     line-height: 52px;
     color: #1D253C;
 }
+
 .section-desc {
     font-weight: normal;
     font-size: 19px;
     line-height: 30px;
     color: #5A6482;
 }
+
 .section-link {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     color: #126F86;
 }
+
 .d-flex {
     display: flex;
     flex-direction: column;
@@ -85,10 +95,12 @@ button {
     background: #FFFFFF;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
+
 .header-nav {
     display: flex;
     align-items: center;
 }
+
 .header-nav-item {
     position: relative;
     margin-left: 35px;
@@ -97,10 +109,12 @@ button {
     line-height: 19px;
     color: #1D253C;
 }
+
 .header-nav-item:hover {
     border-bottom: #007188 solid 1px;
     color: #007188;
 }
+
 .header-btn {
     margin-left: 39px;
 }
@@ -110,6 +124,7 @@ button {
     background: url("../images/hero 1.png") no-repeat right/contain;
     padding: 223px 0 0 106px;
 }
+
 .hero-subtitle {
     font-weight: 600;
     font-size: 18px;
@@ -117,6 +132,7 @@ button {
     text-transform: uppercase;
     color: #F46752;
 }
+
 .hero-title {
     font-weight: 600;
     font-size: 64px;
@@ -125,6 +141,7 @@ button {
     color: #1D253C;
     width: 463px;
 }
+
 .hero-desc {
     font-weight: 500;
     font-size: 22px;
@@ -139,11 +156,13 @@ button {
     height: 645px;
     padding: 85px 0 84px;
 }
+
 .secure-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 144px;
 }
+
 .secure-img {
     background: #FFFFFF;
     box-shadow: 0 2px 40px rgba(0, 0, 0, 0.04);
@@ -151,10 +170,12 @@ button {
     padding: 31px 43px 32px;
     margin-bottom: 21px;
 }
+
 .secure-img img {
     width: 414px;
     height: 373px;
 }
+
 .secure-subtitle {
     position: relative;
     font-weight: normal;
@@ -163,17 +184,21 @@ button {
     color: #5A6482;
     padding-left: 7px;
 }
+
 .secure-subtitle img {
     position: absolute;
     left: 0;
     top: 3px;
 }
+
 .secure-infoside {
     padding: 83px 0;
 }
+
 .secure-title {
     margin: 26px 0 19px;
 }
+
 .secure-desc {
     margin-bottom: 32px;
 }
@@ -182,34 +207,42 @@ button {
     position: relative;
     padding: 148px 0 164px;
 }
+
 .technology-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 8px;
 }
+
 .technology-info {
     padding: 126px 0 126px;
 }
+
 .technology-title {
     margin: 27px 0 35px;
 }
+
 .technology-desc {
     margin-bottom: 15px;
     width: 483px;
 }
+
 .technology-img {
     position: relative;
 }
+
 .technology-dots {
     position: absolute;
     left: -45px;
     top: -35px;
 }
+
 .technology-section-img {
     position: relative;
     width: 542px;
     height: 510px;
 }
+
 .technology-img-desc {
     position: absolute;
     z-index: 1;
@@ -225,6 +258,7 @@ button {
     left: -85px;
     bottom: -25px;
 }
+
 .technology-umbrella {
     position: absolute;
     left: 0;
@@ -241,24 +275,29 @@ button {
     text-align: center;
     z-index: 1;
 }
+
 .insurance-title {
     margin: 30px 0 37px;
     font-size: 43px;
 }
+
 .insurance-desc {
     margin-bottom: 41px;
 }
+
 .insurance-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 70px;
 }
+
 .top-rated-card {
     height: 320px;
-    padding: 70px 63px 72px 63px ;
+    padding: 70px 63px 72px 63px;
     text-align: center;
     background: #FFFFFF;
 }
+
 .top-rated-cardtitle {
     font-weight: normal;
     font-size: 24px;
@@ -267,12 +306,14 @@ button {
     margin-top: 15px;
     margin-bottom: 5px;
 }
+
 .top-rated-carddesc {
     font-weight: normal;
     font-size: 12px;
     line-height: 26px;
     color: #5A6482;
 }
+
 .top-rated-nav {
     font-weight: normal;
     font-size: 12px;
@@ -280,12 +321,14 @@ button {
     text-decoration-line: underline;
     color: #1D253C;
 }
+
 .experience-card {
     height: 320px;
     padding: 30px 36px 62px 37px;
     text-align: center;
     background: #FFFFFF;
 }
+
 .experience-title {
     font-weight: normal;
     font-size: 24px;
@@ -293,6 +336,7 @@ button {
     color: #1D253C;
     margin-top: -20px;
 }
+
 .experience-desc {
     font-weight: normal;
     font-size: 11px;
@@ -300,12 +344,14 @@ button {
     color: #5A6482;
     margin-top: 15px;
 }
+
 .insurance-card {
     height: 320px;
     padding: 44px 31px 43px 31px;
     text-align: center;
     background: #FFFFFF;
 }
+
 .insurance-cardtitle {
     font-weight: normal;
     font-size: 24px;
@@ -313,12 +359,14 @@ button {
     color: #1D253C;
     margin-bottom: 10px;
 }
+
 .insurance-carddesc {
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     color: #5A6482;
 }
+
 .insurance-dog-img {
     position: absolute;
     right: 0;
@@ -339,5 +387,48 @@ button {
     text-align: center;
     color: #ACB4BF;
     width: 731px;
-    margin-bottom: 63px;
 }
+
+.steps-numbers {
+    position: relative;
+    display: flex;
+    padding: 84px 56px 0 66px;
+    margin: 63px 0 36px;
+}
+
+.steps-numbers-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.steps-numbers-desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ACB4BF;
+    width: 234px;
+    text-align: center;
+}
+
+.steps-apply {
+    margin: 0 121px 0 133px;
+}
+
+.steps-apply h4 {
+    margin-bottom: 14px;
+}
+
+.steps-price, .steps-covered {
+    padding-top: 5px;
+}
+
+.steps-price h4, .steps-covered h4 {
+    margin-bottom: 8px;
+}
+
+.steps-covered p {
+    width: 256px;
+}
+
