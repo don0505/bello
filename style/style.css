@@ -432,3 +432,273 @@ button {
     width: 256px;
 }
 
+.steps-number1 img {
+    position: absolute;
+    top: 4px;
+    left: 167px;
+    z-index: 3;
+}
+
+.steps-number2 img {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.steps-number3 img {
+    position: absolute;
+    top: 0;
+    right: 162px;
+    z-index: 3;
+}
+
+.steps-circle1 img {
+    position: absolute;
+    top: 24px;
+    left: 182px;
+    z-index: 2;
+}
+
+.steps-circle2 img {
+    position: absolute;
+    top: 24px;
+    left: 524px;
+    z-index: 2;
+}
+
+.steps-circle3 img {
+    position: absolute;
+    top: 10px;
+    right: 173px;
+    z-index: 2;
+}
+
+.steps-path img {
+    position: absolute;
+    z-index: 1;
+    top: 17px;
+    left: 196px;
+}
+
+.steps-confetti img {
+    position: absolute;
+    z-index: 1;
+    top: -148px;
+    right: -168px;
+}
+
+.steps-drop1 img {
+    position: absolute;
+    top: -13px;
+    left: 78px;
+}
+
+.steps-drop2 img {
+    position: absolute;
+    bottom: 177px;
+    left: 347px;
+}
+
+#free {
+    position: relative;
+    padding: 148px 0 170px;
+    background: #F9F5F2;
+}
+
+.free-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 103px;
+}
+
+.free-img-main {
+    position: relative;
+}
+
+.free-dots {
+    position: absolute;
+    left: -45px;
+    top: -35px;
+}
+
+.free-img {
+    position: relative;
+    width: 542px;
+    height: 510px;
+}
+
+.free-img-desc {
+    position: absolute;
+    z-index: 1;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    color: #1D253C;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+    border-radius: 5px;
+    padding: 11px 18px 11px 19px;
+    width: 331px;
+    left: 190px;
+    bottom: -25px;
+}
+
+.free-suptitle {
+    margin-top: 100px;
+}
+
+.free-title {
+    margin-top: 30px;
+    margin-bottom: 24px;
+    font-size: 45px;
+    width: 497px;
+}
+
+.free-desc {
+    margin-bottom: 23px;
+}
+
+#cards {
+    margin: 161px 0 132px;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.cards-calculator {
+    width: 260px;
+    height: 323px;
+    background: rgba(169, 216, 255, 0.3);
+    border-radius: 0;
+    padding: 40px 7px 33px 22px;
+}
+
+.card-title1 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 42px;
+    color: #7CAFDD;
+}
+
+.card-desc1 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+    padding: 65px 0 84px;
+}
+
+.card-link1 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7CAFDD;
+}
+
+.cards-term {
+    width: 260px;
+    height: 323px;
+    background: rgba(255, 174, 104, 0.3);
+    border-radius: 0;
+    padding: 40px 7px 33px 22px;
+}
+
+.card-title2 {
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 42px;
+    color: #E79751;
+}
+
+.card-desc2 {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #5A6482;
+    padding: 21px 0 84px;
+}
+
+.card-link2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E79751;
+}
+
+.cards-pricing {
+    width: 260px;
+    height: 323px;
+    background: rgba(250, 82, 64, 0.3);
+    border-radius: 0;
+    padding: 40px 7px 33px 22px;
+}
+
+.card-title3 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FA5240;
+}
+
+.card-desc3 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+    padding: 63px 0 84px;
+}
+
+.card-link3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FA5240;
+}
+
+.cards-insurance {
+    width: 260px;
+    height: 323px;
+    background: rgba(18, 111, 133, 0.3);
+    border-radius: 0;
+    padding: 40px 7px 33px 22px;
+}
+
+.card-title4 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 42px;
+    color: #126F85;
+}
+
+.card-desc4 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+    padding: 21px 0 84px;
+}
+
+.card-link4 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #126F85;
+}
+
+
+
+
+
+
+
+
+
+
+
+
